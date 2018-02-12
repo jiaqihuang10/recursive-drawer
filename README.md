@@ -9,19 +9,21 @@ The Snow_Flower application can generate an SVG image consisting of from 1 to 8 
 
 To invoke snow_flower.sh from the Linux command line:
 
-	`bash snow_flower.sh number_of_petal_rings snowflake_levels colour`
+	bash snow_flower.sh number_of_petal_rings snowflake_levels colour
 
 
 ### What shell commands are used to generate the SVG images above?
 To generate Snow_flower 0:
-	`bash snow_flower.sh 2 4 SkyBlue`
-	`mv snow_flower.svg snow_flower_SkyBlue.svg`
+
+	bash snow_flower.sh 2 4 SkyBlue
+	mv snow_flower.svg snow_flower_SkyBlue.svg
 
 To generate Snow_flower 1:
 
-	`bash snow_flower.sh 4 4 Red`
-	`mv snow_flower.svg snow_flower_Red.svg`
+	bash snow_flower.sh 4 4 Red
+	mv snow_flower.svg snow_flower_Red.svg
 
 To generate Snow_flower 2:
-	`bash snow_flower.sh 2 3 Salmon`
-	`mv snow_flower.svg snow_flower_Salmon.svg`
+
+	bash snow_flower.sh 2 3 Salmon
+	mv snow_flower.svg snow_flower_Salmon.svg
